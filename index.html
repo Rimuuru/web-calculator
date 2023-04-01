@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="css/Normalize.css" type="text/css" />
+    <link rel="stylesheet" href="css/media-queries.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/icons.png" type="image/png" sizes="64x64" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="black-circle"></div>
+      <div class="green-circle"></div>
+      <div class="smartphone">
+        <div class="android">
+          <!-- main screen calculator -->
+          <div class="top_board">
+            <a href="index.html" class="btn_calculator"><h1>Calculator</h1></a>
+            <a href="#" class="btn_converter"><h1>Converter</h1></a>
+            <a href="#" class="burger">
+              <div class="line_1"></div>
+              <div class="line_2"></div>
+              <div class="line_3"></div>
+            </a>
+          </div>
+          <div class="display_board">
+            <div id="input" oninput="updateVisibilityData()"></div>
+            <div id="result" oninput="updateVisibilityData()"></div>
+          </div>
+          <div class="input_board">
+            <a href="#" class="link_full_clear"
+              ><button class="btn_full_clear" onclick="clearInput()">
+                AC
+              </button></a
+            >
+            <a href="#" class="link_clear_count"
+              ><button class="btn_clear_count" onclick="removeLastInput()">
+                ←
+              </button></a
+            >
+            <a href="#" class="link_percent"
+              ><button class="btn_percent" onclick="executeOperation('%')">
+                %
+              </button></a
+            >
+            <a href="#" class="link_division"
+              ><button class="btn_division" onclick="executeOperation('/')">
+                ÷
+              </button></a
+            >
+            <a href="#" class="link_multiple"
+              ><button class="btn_multiple" onclick="executeOperation('*')">
+                x
+              </button></a
+            >
+            <a href="#" class="link_minus"
+              ><button class="btn_minus" onclick="executeOperation('-')">
+                -
+              </button></a
+            >
+            <a href="#" class="link_add"
+              ><button class="btn_add" onclick="executeOperation('+')">
+                +
+              </button></a
+            >
+            <a href="#" class="link_equal"
+              ><button class="btn_equal" onclick="computeResult()">=</button></a
+            >
+            <a href="#" class="link_dot"
+              ><button class="btn_dot" onclick="appendDecimal('.')">
+                .
+              </button></a
+            >
+            <a href="#" class="link_zero"
+              ><button class="btn_zero" onclick="appendInput(0)">0</button></a
+            >
+            <a href="#" class="link_one"
+              ><button class="btn_one" onclick="appendInput(1)">1</button></a
+            >
+            <a href="#" class="link_two"
+              ><button class="btn_two" onclick="appendInput(2)">2</button></a
+            >
+            <a href="#" class="link_three"
+              ><button class="btn_three" onclick="appendInput(3)">3</button></a
+            >
+            <a href="#" class="link_fourth"
+              ><button class="btn_fourth" onclick="appendInput(4)">4</button></a
+            >
+            <a href="#" class="link_five"
+              ><button class="btn_five" onclick="appendInput(5)">5</button></a
+            >
+            <a href="#" class="link_six"
+              ><button class="btn_six" onclick="appendInput(6)">6</button></a
+            >
+            <a href="#" class="link_seven"
+              ><button class="btn_seven" onclick="appendInput(7)">7</button></a
+            >
+            <a href="#" class="link_eight"
+              ><button class="btn_eight" onclick="appendInput(8)">8</button></a
+            >
+            <a href="#" class="link_nine"
+              ><button class="btn_nine" onclick="appendInput(9)">9</button></a
+            >
+          </div>
+        </div>
+        <img
+          src="images/phone_035.png"
+          alt="smartphone"
+          class="screen_android"
+          width="1000px"
+        />
+        <div class="switch_bg">
+          <button class="btn-toggle">
+            <img src="images/light.png" alt="" class="light_bg" width="35px" />
+          </button>
+        </div>
+      </div>
+    </div>
+    <button id="show-footer">About Author, click!</button>
+    <footer>
+       <span>Created by Golubchuk Adrian &copy; 2023</span>
+    </footer>
+    <script src="js/theme.js" type="text/javascript" async></script>
+    <script src="js/arithmetic.js" type="text/javascript"></script>
+    <script src="js/show-footer.js" type="text/javascript"></script>
+  </body>
+</html>
