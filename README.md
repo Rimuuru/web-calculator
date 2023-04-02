@@ -1,3 +1,4 @@
-# Привет! Это первый мой сайт под названием Калькулятор
+#Calculator this first my website <br>
 
 https://seniorl0rd.github.io/web-calculator/
+ 
