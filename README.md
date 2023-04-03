@@ -4,7 +4,7 @@
 
 ## Tools
 
-![HTML](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg) 
+![HTML](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg width="45px") 
 
 
 
