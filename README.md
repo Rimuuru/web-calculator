@@ -4,7 +4,7 @@
 
 ## Tools
 
-![HTML](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![HTML](https://www.flaticon.com/free-icon/html-5_5968267?term=html&page=1&position=3&origin=search&related_id=5968267) 
 
 
 
