@@ -12,5 +12,5 @@
 ## Authors
 Golubchuk Adrian
 
-https://seniorl0rd.github.io/web-calculator/
+**Link** - https://seniorl0rd.github.io/web-calculator/
  
