@@ -1,4 +1,4 @@
-# Web-calculator align-items="center"<br>
+# Web-calculator <br>
 
 Это сайт калькулятор, разработанный для вычислительных операций над числами <br>
 
