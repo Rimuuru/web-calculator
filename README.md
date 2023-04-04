@@ -14,5 +14,4 @@ Golubchuk Adrian
 
 **Link** - https://seniorl0rd.github.io/web-calculator/  <hr>
 
-Coming soon Update...
- 
+COMING SOON UPDATE
