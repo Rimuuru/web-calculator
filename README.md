@@ -12,7 +12,7 @@
 ## Authors
 Golubchuk Adrian
 
-**Link** - https://seniorl0rd.github.io/web-calculator/  <br>
+**Link** - https://seniorl0rd.github.io/web-calculator/  </br>
 
 Coming soon Update...
  
